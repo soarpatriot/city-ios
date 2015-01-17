@@ -27,7 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8735788E1A566FAC00F17195 /* city.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = city.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8735788E1A566FAC00F17195 /* 蔚县@我.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "蔚县@我.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		873578921A566FAC00F17195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		873578931A566FAC00F17195 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		873578961A566FAC00F17195 /* city.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = city.xcdatamodel; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 		8735788F1A566FAC00F17195 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8735788E1A566FAC00F17195 /* city.app */,
+				8735788E1A566FAC00F17195 /* 蔚县@我.app */,
 				873578A61A566FAC00F17195 /* cityTests.xctest */,
 			);
 			name = Products;
@@ -132,7 +132,7 @@
 			);
 			name = city;
 			productName = city;
-			productReference = 8735788E1A566FAC00F17195 /* city.app */;
+			productReference = 8735788E1A566FAC00F17195 /* 蔚县@我.app */;
 			productType = "com.apple.product-type.application";
 		};
 		873578A51A566FAC00F17195 /* cityTests */ = {
@@ -345,7 +345,7 @@
 				INFOPLIST_FILE = city/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "蔚县@我";
 			};
 			name = Debug;
 		};
@@ -356,7 +356,7 @@
 				INFOPLIST_FILE = city/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "蔚县@我";
 			};
 			name = Release;
 		};
@@ -413,6 +413,7 @@
 				873578B21A566FAC00F17195 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		873578B31A566FAC00F17195 /* Build configuration list for PBXNativeTarget "cityTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +422,7 @@
 				873578B51A566FAC00F17195 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
