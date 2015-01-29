@@ -6,17 +6,12 @@
 	<string>zh_CN</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
-	<key>CFBundleIconFiles</key>
-	<array>
-		<string>Icon-120.png</string>
-		<string>Icon-180.png</string>
-	</array>
 	<key>CFBundleIdentifier</key>
-	<string>com.soar.$(PRODUCT_NAME:rfc1034identifier)</string>
+	<string>com.soar.city</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>$(PRODUCT_NAME)</string>
+	<string>蔚县@我</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

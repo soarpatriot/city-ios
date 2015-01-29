@@ -27,7 +27,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8735788E1A566FAC00F17195 /* 蔚县@我.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "蔚县@我.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		873578921A566FAC00F17195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		873578931A566FAC00F17195 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		873578961A566FAC00F17195 /* city.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = city.xcdatamodel; sourceTree = "<group>"; };
@@ -35,9 +34,10 @@
 		8735789B1A566FAC00F17195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8735789D1A566FAC00F17195 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		873578A01A566FAC00F17195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		873578A61A566FAC00F17195 /* cityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		873578AB1A566FAC00F17195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		873578AC1A566FAC00F17195 /* cityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cityTests.swift; sourceTree = "<group>"; };
+		87ABF1571A6E8B2000EE9595 /* city.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = city.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87ABF1581A6E8B2000EE9595 /* cityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,17 +63,9 @@
 			children = (
 				873578901A566FAC00F17195 /* city */,
 				873578A91A566FAC00F17195 /* cityTests */,
-				8735788F1A566FAC00F17195 /* Products */,
+				87ABF1571A6E8B2000EE9595 /* city.app */,
+				87ABF1581A6E8B2000EE9595 /* cityTests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		8735788F1A566FAC00F17195 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8735788E1A566FAC00F17195 /* 蔚县@我.app */,
-				873578A61A566FAC00F17195 /* cityTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		873578901A566FAC00F17195 /* city */ = {
@@ -132,7 +124,7 @@
 			);
 			name = city;
 			productName = city;
-			productReference = 8735788E1A566FAC00F17195 /* 蔚县@我.app */;
+			productReference = 87ABF1571A6E8B2000EE9595 /* city.app */;
 			productType = "com.apple.product-type.application";
 		};
 		873578A51A566FAC00F17195 /* cityTests */ = {
@@ -150,7 +142,7 @@
 			);
 			name = cityTests;
 			productName = cityTests;
-			productReference = 873578A61A566FAC00F17195 /* cityTests.xctest */;
+			productReference = 87ABF1581A6E8B2000EE9595 /* cityTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -180,7 +172,7 @@
 				Base,
 			);
 			mainGroup = 873578851A566FAC00F17195;
-			productRefGroup = 8735788F1A566FAC00F17195 /* Products */;
+			productRefGroup = 873578851A566FAC00F17195;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -298,7 +290,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -333,7 +325,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -342,10 +334,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = city/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "蔚县@我";
+				PRODUCT_NAME = city;
 			};
 			name = Debug;
 		};
@@ -353,10 +346,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = city/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "蔚县@我";
+				PRODUCT_NAME = city;
 			};
 			name = Release;
 		};
